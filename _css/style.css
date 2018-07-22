@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+::selection {
+	background-color: #FFF;
+	color: #F14A29;
+}
+
+::-moz-selection {
+	background-color: #FFF;
+	color: #F14A29;
+}
+
+::-webkit-selection {
+	background-color: #FFF;
+	color: #F14A29;
+}
+
+::-ms-selection {
+	background-color: #FFF;
+	color: #F14A29;
+}
+
+::-o-selection {
+	background-colorcolor: #FFFF;
+	color: #F14A29;
+}
+
+a::selection {
+	background-color: transparent;
+	color: #F14A29;
+}
+
+a::-moz-selection {
+	background-color: transparent;
+	color: #F14A29;
+}
+
+a::-webkit-selection {
+	background-color: transparent;
+	color: #F14A29;
+}
+
+a::-ms-selection {
+	background-color: transparent;
+	color: #F14A29;
+}
+
+a::-o-selection {
+	background-colorcolor: transparent;
+	color: #F14A29;
+}
+
+html,body {
+	height: 100%
+}
+
+body,h1,h2,h3 {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'PT Sans', helvetica, arial, sans-serif;
+	font-weight: 400;
+	overflow: hidden;
+	background-color: #222;
+	background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 400, from(#444),
+		to(#222) );
+	background-image: -moz-radial-gradient(50% 50%, circle, #4440px, #222400px);
+	background-size: 100% 100%;
+	-webkit-perspective: 500px;
+	-moz-perspective: 500px;
+}
+
+a {
+	color: #00EEFF;
+	text-decoration: none;
+}
+
+#text {
+	position: absolute;
+	width: 600px;
+	height: 120px;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -200px;
+	text-align: center;
+	-webkit-tranform: translateZ(0);
+	-webkit-transition-duration: 0.05s;
+	-moz-tranform: translateZ(0);
+	color: #FFF;
+	text-shadow: 001pxrgba(0, 0, 0, .2 );
+}
+
+#text:before {
+	content: "Murali Prashanth";
+	font-size: 75px;
+	font-weight: 700;
+}
+
+#text2 {
+	position: absolute;
+	width: 600px;
+	left: 50%;
+	bottom: 50%;
+	margin-left: -300px;
+	margin-bottom: -200px;
+	text-align: center;
+	-webkit-tranform: translateZ(0);
+	-webkit-transition-duration: 0.05s;
+	-moz-tranform: translateZ(0);
+	text-shadow: 001pxrgba(0, 0, 0, .2 );
+}
+
+h2 {
+	font-size: 22px;
+	color: #fff;
+}
+
+h2s {
+	text-shadow: none !important;
+}
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.button5 {background-color: #555555;} /* Black */
